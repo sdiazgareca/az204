@@ -1,0 +1,45 @@
+### **Azure Cosmos DB Overview**
+**Multi-Model Database Service** offering multiple APIs with global distribution and SLA-backed 99.999% availability.
+
+---
+
+### **Key APIs Compared**
+| **API**               | **Best For**                          | **Key Features**                                                                 |
+|-----------------------|---------------------------------------|----------------------------------------------------------------------------------|
+| **PostgreSQL**        | Relational + NoSQL hybrid workloads   | - Distributed tables <br> - PostgreSQL 15 compatibility <br> - JSONB support      |
+| **NoSQL (Core/SQL)**  | Document databases (native Cosmos DB) | - T-SQL-like queries <br> - JavaScript stored procedures <br> - Automatic indexing |
+
+---
+
+### **Provisioning Options**
+1. **Capacity Modes**:
+   - **Provisioned Throughput**: Fixed cost, ideal for constant workloads. Free tier available (1 per subscription).
+   - **Serverless**: Pay-per-use, ideal for sporadic workloads.
+
+2. **Configuration**:
+   - **DNS name**, **primary region**, and optional read regions.
+   - **API selection is irreversible** (choose carefully!).
+
+---
+
+### **Core Concepts**
+- **Containers**: Store data (documents, graphs, etc.) with configurable throughput.
+- **Global Distribution**: Data replicated across regions for low latency and high availability.
+- **Consistency Levels**: From "Strong" to "Eventual" (trade-offs between performance and data freshness).
+
+---
+
+### **Exam Focus**
+- **NoSQL (SQL) API** is primary for AZ-204:
+  - Uses T-SQL-like syntax (`SELECT * FROM c WHERE c.id = "123"`).
+  - JavaScript for triggers/stored procedures.
+- **PostgreSQL API** is relational-compatible but less emphasized.
+
+---
+
+### **Key Takeaways**
+✔ **NoSQL API** = Default for document workloads  
+✔ **PostgreSQL API** = Relational migration path  
+✔ **Serverless** = Cost-effective for variable loads  
+
+Need a **hands-on lab** for Cosmos DB with C#? Let me know! 🚀
