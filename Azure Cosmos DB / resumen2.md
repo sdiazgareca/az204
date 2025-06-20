@@ -1,6 +1,3 @@
-Perfect — here is your exact **Markdown** version, ready to save as `.md` for your GitHub repo or notes:
-
-```markdown
 # Provisioning Azure Cosmos DB
 
 ## Overview
@@ -80,11 +77,3 @@ Cosmos DB Account
 ```
 
 ---
-```
-
-If you want, I can also generate:
-✅ a mini **quiz**
-✅ a **CSV flashcard** file
-✅ a **lab exercise** (CLI + C#)
-
-Would you like me to prepare them too? 🚀
